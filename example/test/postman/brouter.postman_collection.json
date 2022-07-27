@@ -1,0 +1,163 @@
+{
+  "info": {
+    "_postman_id": "8953f81a-b129-4121-880a-43c6764b2d3d",
+    "name": "brouter",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "12266648"
+  },
+  "item": [
+    {
+      "name": "get blog",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base}}/blog/",
+          "host": ["{{base}}"],
+          "path": ["blog", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "all blog",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base}}/blog/all",
+          "host": ["{{base}}"],
+          "path": ["blog", "all"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "post blog",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base}}/blog/",
+          "host": ["{{base}}"],
+          "path": ["blog", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "edit blog",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{base}}/blog/",
+          "host": ["{{base}}"],
+          "path": ["blog", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "del blog",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{base}}/blog/",
+          "host": ["{{base}}"],
+          "path": ["blog", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get post",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base}}/post/",
+          "host": ["{{base}}"],
+          "path": ["post", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "all post",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base}}/post/all",
+          "host": ["{{base}}"],
+          "path": ["post", "all"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "post post",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base}}/post/",
+          "host": ["{{base}}"],
+          "path": ["post", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "edit post",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{base}}/post/",
+          "host": ["{{base}}"],
+          "path": ["post", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "del post",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{base}}/post/",
+          "host": ["{{base}}"],
+          "path": ["post", ""]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base",
+      "value": "localhost:5000",
+      "type": "string"
+    }
+  ]
+}
